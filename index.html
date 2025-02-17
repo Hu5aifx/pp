@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why I Need This PC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            padding-top: 50px;
+        }
+        .container {
+            max-width: 1000px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+            margin-top: 50px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        h1 {
+            color: #ffcc00;
+            font-weight: bold;
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 40px;
+            letter-spacing: 2px;
+        }
+        .section {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #ffffff;
+            padding-bottom: 20px;
+        }
+        .section:last-child {
+            border: none;
+        }
+        .section i {
+            font-size: 50px;
+            margin-right: 20px;
+            color: #ffcc00;
+        }
+        .section .content {
+            flex: 1;
+        }
+        .section h3 {
+            color: #ff5733;
+            font-weight: bold;
+            font-size: 24px;
+        }
+        .section p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .highlight {
+            color: #ffcc00;
+            font-weight: bold;
+        }
+        .btn-custom {
+            background: linear-gradient(to right, #ffcc00, #ff5733);
+            color: white;
+            font-weight: bold;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 5px 20px rgba(255, 204, 0, 0.5);
+            display: block;
+            width: 100%;
+            transition: 0.3s;
+            margin-top: 30px;
+        }
+        .btn-custom:hover {
+            background: linear-gradient(to right, #ff5733, #c70039);
+            box-shadow: 0 8px 30px rgba(255, 87, 51, 0.7);
+        }
+        .text-center {
+            margin-top: 30px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Dad, Here's Why I Need This PC</h1>
+        
+        <div class="section">
+            <i class="fas fa-laptop-code"></i>
+            <div class="content">
+                <h3>✅ Productivity & Learning</h3>
+                <p>This PC will help me with <span class="highlight">coding, running servers, and testing applications</span> smoothly for my <span class="highlight">MERN stack development</span> course.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <i class="fas fa-money-bill-wave"></i>
+            <div class="content">
+                <h3>💰 Freelancing & Earning Potential</h3>
+                <p>With this PC, I can take up <span class="highlight">freelancing projects</span> on Fiverr and Upwork to earn money.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <i class="fas fa-gamepad"></i>
+            <div class="content">
+                <h3>🎮 Not Just Gaming – A Smart Investment</h3>
+                <p>This PC helps with <span class="highlight">UI/UX design, animations, and web development</span>. Plus, it’s <span class="highlight">future-proof</span> for years!</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <i class="fas fa-chart-line"></i>
+            <div class="content">
+                <h3>📉 It's Cheaper & Lasts Longer</h3>
+                <p>A laptop with similar specs costs much more, while this PC is <span class="highlight">upgradeable</span> and lasts longer.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <i class="fas fa-balance-scale"></i>
+            <div class="content">
+                <h3>🎯 Study & Gaming Balance</h3>
+                <p>I promise to <span class="highlight">prioritize my studies</span> and manage my time responsibly.</p>
+            </div>
+        </div>
+
+        <button class="btn-custom" onclick="thankDad()">I Hope You Understand ❤️</button>
+        
+        <div class="text-center">
+            <p>Thank you for considering it, Dad! Your support means the world! 😊</p>
+        </div>
+    </div>
+
+    <script>
+        function thankDad() {
+            alert('Thank you, Dad! I really appreciate it! 😊');
+        }
+    </script>
+</body>
+</html>
